@@ -1,4 +1,4 @@
-# covid-19
+# Campaña concienciación covid-19
 Stop desinformación #FrenaLaCurva
 
 Campaña de concienciación a la población sobre el coronavirus (Covid-19).
