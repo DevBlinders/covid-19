@@ -9,4 +9,4 @@ Solamente tienes que añadir este código en tu web
 <script async type="text/javascript" src="https://www.devblinders.com/includes/covid19.js"></script>
 ```
 
-Tambien puedes descargar el js directamente desde el github y cargarlo internamente en tu web.
+Tambien puedes descargar el js "covid-19.js" directamente desde el github y cargarlo internamente en tu web.
