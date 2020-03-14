@@ -32,7 +32,7 @@ Si tenéis Joomla! podéis instalar este módulo para añadirlo a vuestra web de
 http://devblinders.com/includes/mod_covid19.zip
 
 # Módulo para PrestaShop
-Si tenéis una tienda en PrestaShop podéis utilizar este modulo para incluirlo en vuestra tienda.
+Si tenéis una tienda en PrestaShop 1.6 o 1.7 podéis utilizar este modulo para incluirlo en vuestra tienda.
 
 http://devblinders.com/includes/pscodvid19.zip
 
