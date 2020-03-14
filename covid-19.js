@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+document.addEventListener("DOMContentLoaded", function(event) { 
     function insertCss( code ) {
         var style = document.createElement('style');
         style.type = 'text/css';
