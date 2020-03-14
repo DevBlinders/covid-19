@@ -9,7 +9,7 @@ Solamente tienes que añadir este código en tu web
 <script async type="text/javascript" src="https://www.devblinders.com/includes/covid19.js"></script>
 ```
 
-Si no te funciona al cargar el js de forma externa, lo mejor es descargar el js "covid-19.js" directamente desde el github y cargarlo internamente en tu web.
+Si no te funciona al cargar el js de forma externa, lo mejor es descargar el js "covid19.js" directamente desde el github y cargarlo internamente en tu web.
 
 # Para insertar en WordPress a mano
 Para insertar el javascript en WordPress podemos insertar este codigo en el function.php de la plantilla que tengamos activa
