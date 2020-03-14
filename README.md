@@ -37,6 +37,7 @@ Use a custom HTML tag and add this to content:
 ```
 
 
+
 # Versión en Castellano - Campaña concienciación covid-19
 Stop desinformación #FrenarLaCurva
 
@@ -85,4 +86,3 @@ La etiqueta tiene que ser de tipo HTML Personalizado y en el contenido, lo únic
 ```
 
 Después, en activador tenéis que seleccionar el que viene por defecto de All Pages (Todas las páginas). Y por último ya sólo queda que envíes los cambios y revises que se ve en incógnito.
-
