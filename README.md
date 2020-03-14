@@ -20,3 +20,7 @@ function covid19() {
     wp_enqueue_script( 'covid19', 'https://www.devblinders.com/includes/covid19.js', false );
 }
 ```
+# Plugin para WordPress
+Podeis descargar e instalar el siguiente plugin para vuestro WordPress y meterá ese código de forma automática
+
+http://devblinders.com/includes/covid19.zip
