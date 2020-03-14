@@ -35,7 +35,7 @@ Use a custom HTML tag and add this to content:
 ```html
 <script async type="text/javascript" src="https://www.devblinders.com/includes/covid19_en.js"></script>
 ```
-
+Then, from "Activator", select "All Pages" by default. Just send the changes and check in Incognito Mode.
 
 
 # Versión en Castellano - Campaña concienciación covid-19
