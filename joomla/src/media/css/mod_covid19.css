@@ -1,0 +1,14 @@
+.mod_covid19 {
+	position: relative;
+	text-align: center;
+}
+
+.mod_covid19 a::after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+

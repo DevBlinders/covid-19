@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.8" client="site" method="upgrade">
+	<name>MOD_COVID19</name>
+	<version>1.0.0</version>
+	<creationDate>2020/03</creationDate>
+	<license></license>	
+	<description>MOD_COVID19_XML_DESCRIPTION</description>
+	<files>
+  		<filename module="mod_covid19">mod_covid19.php</filename>
+  		<folder>tmpl</folder>
+  		<filename>mod_covid19.xml</filename>
+	</files>
+	<media destination="mod_covid19" folder="media">
+		<folder>css</folder>
+	</media>
+	<languages>
+		<language tag="en-GB">languages/en-GB/en-GB.mod_covid19.ini</language>
+		<language tag="en-GB">languages/en-GB/en-GB.mod_covid19.ini</language>
+		<language tag="es-ES">languages/es-ES/es-ES.mod_covid19.sys.ini</language>
+		<language tag="es-ES">languages/es-ES/es-ES.mod_covid19.sys.ini</language>
+	</languages>
+</extension>
