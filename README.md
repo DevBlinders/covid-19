@@ -1,5 +1,5 @@
 # Versión en Castellano - Campaña concienciación covid-19
-Stop desinformación #FrenaLaCurva
+Stop desinformación #FrenarLaCurva
 
 Campaña de concienciación a la población sobre el coronavirus (Covid-19).
 Si quieres sumarte a esta campaña en tu web puede insertar este javascript en el body de tu web para que aparezca este banner con información real sobre el virus en la web de OMS
