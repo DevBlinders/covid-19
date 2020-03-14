@@ -9,8 +9,18 @@ document.addEventListener("DOMContentLoaded", function(event) {
         }
         document.getElementsByTagName("head")[0].appendChild( style );
     }
-    var codvid = '<a href="https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses" target="_blank" rel="nofollow" rel="noopener" id="covid19">' +
-                    '<img src="https://www.who.int/ResourcePackages/WHO/assets/dist/images/logos/es/h-logo-blue.svg" alt="Organización Mundial de la Salud">' +
+    
+    var whoLanguages = ['es','en','fr', 'ru', 'zh'];
+    var userLanguage = navigator.language.slice(0,2);
+    
+    if (!whoLanguages.includes(userFolder)) {
+        languageFolder = 'en';
+    } else {
+        languageFolder = userLanguage;
+    }
+    
+    var codvid = '<a href="https://www.who.int/' + languageFolder + '/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses" target="_blank" rel="nofollow" rel="noopener" id="covid19">' +
+                    '<img src="https://www.who.int/ResourcePackages/WHO/assets/dist/images/logos/' + languageFolder + '/h-logo-blue.svg">' +
                     '<p class="covid19__hashtag">#FrenarLaCurva</p>' +
                 '</a>';
     document.querySelector('body').innerHTML += codvid;
