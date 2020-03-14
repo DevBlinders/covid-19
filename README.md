@@ -37,8 +37,9 @@ Use a custom HTML tag and add this to content:
 ```
 Then, from "Activator", select "All Pages" by default. Just send the changes and check in Incognito Mode.
 
+</br>
 
-# Versión en Castellano - Campaña concienciación covid-19
+# Castellano - Campaña concienciación covid-19
 Stop desinformación #FrenarLaCurva
 
 Campaña de concienciación a la población sobre el coronavirus (Covid-19).
