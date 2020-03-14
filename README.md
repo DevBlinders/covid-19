@@ -22,9 +22,14 @@ function covid19() {
 ```
 
 # Plugin para WordPress
-Podeis descargar e instalar el siguiente plugin para vuestro WordPress y meterá ese código de forma automática
+Podeis descargar e instalar el siguiente plugin para vuestro WordPress y meterá ese código de forma automática.
 
 http://devblinders.com/includes/covid19.zip
+
+# Módulo para Joomla!
+Si teneis Joomla! podeis instalar este módulo para añadirlo a vuestra web de forma automática.
+
+http://devblinders.com/includes/mod_covid19.zip
 
 
 # Para insertartarlo desde Google Tag Manager
