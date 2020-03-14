@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     var whoLanguages = ['es','en','fr', 'ru', 'zh'];
     var userLanguage = navigator.language.slice(0,2);
     
-    if (!whoLanguages.includes(userFolder)) {
+    if (!whoLanguages.includes(userLanguage)) {
         languageFolder = 'en';
     } else {
         languageFolder = userLanguage;
