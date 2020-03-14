@@ -22,28 +22,28 @@ function covid19() {
 ```
 
 # Plugin para WordPress
-Podeis descargar e instalar el siguiente plugin para vuestro WordPress y meterá ese código de forma automática.
+Podéis descargar e instalar el siguiente plugin para vuestro WordPress y meterá ese código de forma automática.
 
 http://devblinders.com/includes/covid19.zip
 
 # Módulo para Joomla!
-Si teneis Joomla! podeis instalar este módulo para añadirlo a vuestra web de forma automática. (Realizado por nuestro colaborador Carlos Cámara)
+Si tenéis Joomla! podéis instalar este módulo para añadirlo a vuestra web de forma automática. (Realizado por nuestro colaborador Carlos Cámara)
 
 http://devblinders.com/includes/mod_covid19.zip
 
 # Módulo para PrestaShop 1.7
-Si teneis una tienda en PrestaShop 1.7 podeis utilizar este modulo para incluirlo en vuestra tienda.
+Si tenéis una tienda en PrestaShop 1.7 podéis utilizar este modulo para incluirlo en vuestra tienda.
 
 http://devblinders.com/includes/pscovid19.zip
 
 
 # Para insertartarlo desde Google Tag Manager
-Simplemnte creais una nueva etiqueta y la llamáis algo tipo: Concienciacion covid-19
+Simplemente creáis una nueva etiqueta y la llamáis algo tipo: Concienciación covid-19
 
 La etiqueta tiene que ser de tipo HTML Personalizado y en el contenido, lo único que tenéis que pegar es esto:
 ```html
 <script async type="text/javascript" src="https://www.devblinders.com/includes/covid19.js"></script>
 ```
 
-Después, en activador tenéis que seleccionar el que viene por defecto de All Pages (Todas las páginas). Y por último ya sólo queda que envies los cambios y revises que se ve en incógnito.
+Después, en activador tenéis que seleccionar el que viene por defecto de All Pages (Todas las páginas). Y por último ya sólo queda que envíes los cambios y revises que se ve en incógnito.
 
