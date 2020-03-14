@@ -37,7 +37,7 @@ Si tenéis una tienda en PrestaShop 1.6 o 1.7 podéis utilizar este modulo para 
 http://devblinders.com/includes/pscodvid19.zip
 
 
-# Para insertartarlo desde Google Tag Manager
+# Para insertarlo desde Google Tag Manager
 Simplemente creáis una nueva etiqueta y la llamáis algo tipo: Concienciación covid-19
 
 La etiqueta tiene que ser de tipo HTML Personalizado y en el contenido, lo único que tenéis que pegar es esto:
