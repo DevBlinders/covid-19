@@ -19,9 +19,21 @@ document.addEventListener("DOMContentLoaded", function(event) {
         languageFolder = userLanguage;
     }
     
+    if (userLanguage == 'es') {
+        hashtag = '#FrenarLaCurva';
+    } elseif (userLanguage == 'fr') {
+        hashtag = '#arrêterlacourbe';
+    } elseif (userLanguage == 'it') {
+        hashtag = '#fermarelacurva';
+    } elseif (userLanguage == 'it') {
+        hashtag = '#kurveanhalten';
+    } else {
+        hashtag = '#FlattenTheCurve';
+    }
+    
     var codvid = '<a href="https://www.who.int/' + languageFolder + '/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses" target="_blank" rel="nofollow" rel="noopener" id="covid19">' +
                     '<img src="https://www.who.int/ResourcePackages/WHO/assets/dist/images/logos/' + languageFolder + '/h-logo-blue.svg">' +
-                    '<p class="covid19__hashtag">#FrenarLaCurva</p>' +
+                    '<p class="covid19__hashtag">' + hashtag + '</p>' +
                 '</a>';
     document.querySelector('body').innerHTML += codvid;
     insertCss(
