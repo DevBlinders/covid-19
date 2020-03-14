@@ -31,6 +31,11 @@ Si teneis Joomla! podeis instalar este módulo para añadirlo a vuestra web de f
 
 http://devblinders.com/includes/mod_covid19.zip
 
+# Módulo para PrestaShop 1.7
+Si teneis una tienda en PrestaShop 1.7 podeis utilizar este modulo para incluirlo en vuestra tienda.
+
+http://devblinders.com/includes/pscovid19.zip
+
 
 # Para insertartarlo desde Google Tag Manager
 Simplemnte creais una nueva etiqueta y la llamáis algo tipo: Concienciacion covid-19
