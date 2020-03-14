@@ -21,11 +21,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
     
     if (userLanguage == 'es') {
         hashtag = '#FrenarLaCurva';
-    } elseif (userLanguage == 'fr') {
+    } else if (userLanguage == 'fr') {
         hashtag = '#arrêterlacourbe';
-    } elseif (userLanguage == 'it') {
+    } else if (userLanguage == 'it') {
         hashtag = '#fermarelacurva';
-    } elseif (userLanguage == 'it') {
+    } else if (userLanguage == 'it') {
         hashtag = '#kurveanhalten';
     } else {
         hashtag = '#FlattenTheCurve';
