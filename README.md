@@ -10,3 +10,13 @@ Solamente tienes que añadir este código en tu web
 ```
 
 Tambien puedes descargar el js "covid-19.js" directamente desde el github y cargarlo internamente en tu web.
+
+# Para insertar en WordPres
+Para insertar el javascript en WordPress podemos insertar este codigo en el function.php de la plantilla que tengamos activa
+
+```php
+add_action( 'wp_enqueue_scripts', 'covid19' );
+function covid19() {
+    wp_enqueue_script( 'covid19', 'https://www.devblinders.com/includes/covid19.js', false );
+}
+```
