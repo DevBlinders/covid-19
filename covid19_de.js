@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         document.getElementsByTagName("head")[0].appendChild( style );
     }
     var codvid = '<a href="https://www.who.int/news-room/q-a-detail/q-a-coronaviruses" target="_blank" rel="nofollow" rel="noopener" id="covid19">' +
-                    '<img src="https://www.who.int/ResourcePackages/WHO/assets/dist/images/logos/es/h-logo-blue.svg">' +
+                    '<img src="https://www.who.int/ResourcePackages/WHO/assets/dist/images/logos/en/h-logo-blue.svg">' +
                     '<p class="covid19__hashtag">#kurveanhalten</p>' +
                 '</a>';
     document.querySelector('body').innerHTML += codvid;
