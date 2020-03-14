@@ -1,3 +1,42 @@
+# English Version - Covi-19 Awareness Campaign
+
+Stop disinformation #FlattenTheCurve
+
+Public awareness campaign on the coronavirus (Covid-19). If you want to join this campaign, insert this javascript in the body of your website. By doing so, a banner with accurate and truthful information about the Covid-19 produced by the WHO will appear on the site.
+
+You only have to add this code on yourwebsite:
+```html
+<script async type="text/javascript" src="https://www.devblinders.com/includes/covid19_en.js"></script>
+```
+
+If it doesn't work when you upload the js externally, try downloading https://github.com/DevBlinders/covid-19/blob/master/covid19_en.js" directly from GitHub and uploading it internally to your site. 
+
+# How to add it in WordPress by hand 
+
+To insert javascript in WordPress, add this code to function.php of your active template.
+
+```php
+add_action( 'wp_enqueue_scripts', 'covid19' );
+function covid19() {
+    wp_enqueue_script( 'covid19', 'https://www.devblinders.com/includes/covid19_en.js', false );
+}
+```
+
+# WordPress Plugin
+
+You can download and install the following plugin for your WordPress. The code will be inserted automatically.
+http://devblinders.com/includes/covid19.zip
+
+# How to add it from Google Tag Manager
+
+Create a new tag and name it something like covid-19 Awareness.
+
+Use a custom HTML tag and add this to content:
+```html
+<script async type="text/javascript" src="https://www.devblinders.com/includes/covid19_en.js"></script>
+```
+
+
 # Versión en Castellano - Campaña concienciación covid-19
 Stop desinformación #FrenarLaCurva
 
@@ -17,7 +56,7 @@ Para insertar el javascript en WordPress podemos insertar este codigo en el func
 ```php
 add_action( 'wp_enqueue_scripts', 'covid19' );
 function covid19() {
-    wp_enqueue_script( 'covid19', 'https://www.devblinders.com/includes/covid19.js', false );
+    wp_enqueue_script( 'covid19', 'https://www.devblinders.com/includes/covid19_es.js', false );
 }
 ```
 
