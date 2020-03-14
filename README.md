@@ -27,7 +27,7 @@ Podeis descargar e instalar el siguiente plugin para vuestro WordPress y meterá
 http://devblinders.com/includes/covid19.zip
 
 # Módulo para Joomla!
-Si teneis Joomla! podeis instalar este módulo para añadirlo a vuestra web de forma automática.
+Si teneis Joomla! podeis instalar este módulo para añadirlo a vuestra web de forma automática. (Realizado por nuestro colaborador Carlos Cámara)
 
 http://devblinders.com/includes/mod_covid19.zip
 
