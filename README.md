@@ -11,7 +11,7 @@ Solamente tienes que añadir este código en tu web
 
 Tambien puedes descargar el js "covid-19.js" directamente desde el github y cargarlo internamente en tu web.
 
-# Para insertar en WordPress
+# Para insertar en WordPress a mano
 Para insertar el javascript en WordPress podemos insertar este codigo en el function.php de la plantilla que tengamos activa
 
 ```php
@@ -20,7 +20,20 @@ function covid19() {
     wp_enqueue_script( 'covid19', 'https://www.devblinders.com/includes/covid19.js', false );
 }
 ```
+
 # Plugin para WordPress
 Podeis descargar e instalar el siguiente plugin para vuestro WordPress y meterá ese código de forma automática
 
 http://devblinders.com/includes/covid19.zip
+
+
+# Para insertartarlo desde Google Tag Manager
+Simplemnte creais una nueva etiqueta y la llamáis algo tipo: Concienciacion covid-19
+
+La etiqueta tiene que ser de tipo HTML Personalizado y en el contenido, lo único que tenéis que pegar es esto:
+```html
+<script async type="text/javascript" src="https://www.devblinders.com/includes/covid19.js"></script>
+```
+
+Después, en activador tenéis que seleccionar el que viene por defecto de All Pages (Todas las páginas). Y por último ya sólo queda que envies los cambios y revises que se ve en incógnito.
+
