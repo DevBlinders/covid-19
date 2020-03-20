@@ -75,7 +75,7 @@ http://devblinders.com/includes/mod_covid19.zip
 # Módulo para PrestaShop
 Si tenéis una tienda en PrestaShop 1.6 o 1.7 podéis utilizar este modulo para incluirlo en vuestra tienda.
 
-http://devblinders.com/includes/pscodvid19.zip
+http://devblinders.com/includes/pscovid19.zip
 
 
 # Para insertarlo desde Google Tag Manager
