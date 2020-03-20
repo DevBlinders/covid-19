@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         hashtag = '#arrêterlacourbe';
     } else if (userLanguage == 'it') {
         hashtag = '#fermarelacurva';
-    } else if (userLanguage == 'it') {
+    } else if (userLanguage == 'de') {
         hashtag = '#kurveanhalten';
     } else {
         hashtag = '#FlattenTheCurve';
